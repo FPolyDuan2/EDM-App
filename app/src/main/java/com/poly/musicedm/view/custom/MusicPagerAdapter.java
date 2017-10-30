@@ -1,9 +1,11 @@
 package com.poly.musicedm.view.custom;
 
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.poly.musicedm.util.Constant;
 import com.poly.musicedm.view.fragment.MusicFragment;
 
 import java.util.List;
@@ -23,9 +25,9 @@ public class MusicPagerAdapter extends FragmentStatePagerAdapter {
     @Override
     public Fragment getItem(int position) {
         MusicFragment fragment = new MusicFragment();
-//        Bundle bundle = new Bundle();
-//        bundle.putInt(Constant.BUNDLE_POSITION_ORDER, position);
-//        fragment.setArguments(bundle);
+        Bundle bundle = new Bundle();
+        bundle.putInt(Constant.BUNDLE_POSITION_ORDER, position);
+        fragment.setArguments(bundle);
         return fragment;
     }
 
