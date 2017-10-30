@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">MusicEDM</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="my_orders">Đơn hàng của tôi</string>
+    <string name="notification">Thông báo</string>
+    <string name="help">Trợ giúp</string>
+    <string name="become_shipper">Trở thành shipper</string>
+    <string name="setting">Cài đặt</string>
+    <string name="continues">Tiếp tục</string>
+    <string name="wait_shipper">Chờ Shipper</string>
+    <string name="done">Hoàn thành</string>
+    <string name="share_app">Share this app</string>
+    <string name="rate_app">Rate this app</string>
+    <string name="more_apps">More apps</string>
+    <string name="request_more_music">Request more music</string>
+    <string name="about">About</string>
 </resources>

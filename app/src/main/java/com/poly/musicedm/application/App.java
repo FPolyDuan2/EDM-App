@@ -1,4 +1,4 @@
-package com.poly.musicedm;
+package com.poly.musicedm.application;
 
 import android.app.Application;
 
