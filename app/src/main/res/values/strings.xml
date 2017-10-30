@@ -16,4 +16,8 @@
     <string name="more_apps">More apps</string>
     <string name="request_more_music">Request more music</string>
     <string name="about">About</string>
+    <string name="best">Best</string>
+    <string name="artists">Artists</string>
+    <string name="genres">Genres</string>
+    <string name="favorite">Favorite</string>
 </resources>
